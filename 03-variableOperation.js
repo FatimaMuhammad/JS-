@@ -54,3 +54,5 @@ let someNumber = 55
 let stringNumber = String(someNumber)
 console.log(typeof stringNumber);
 
+// string ==> number
+//number ==> string
