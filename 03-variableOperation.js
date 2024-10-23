@@ -51,8 +51,74 @@ console.log(valInFsyString); */
 // 1 => TRUE, 0=> False
 
 let someNumber = 55
-let stringNumber = String(someNumber)
-console.log(typeof stringNumber);
+// let stringNumber = String(someNumber)
+// console.log(typeof stringNumber);
 
 // string ==> number
 //number ==> string
+///======================Operation===================//
+//2+2
+//concatinate string
+
+let value = 3
+let negValue = -value
+console.log(negValue);
+
+/*console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**3);
+console.log(2/3);
+//modulus //reminder
+console.log(2%3);*/
+
+let str1 = "hellow"
+let str2 = " fsy" 
+
+let str3 = str1 + str2
+console.log(str3);
+
+//problem same output 12
+/*console.log("1" + 2); //12
+console.log(1 + "2"); //12
+console.log("1" + 2 + 2); //122
+console.log(1 + 2 + "2"); //32 */
+
+
+//confusing code not practically used parentheseis 
+
+console.log(3 + 4 * 5 % 3);
+
+// to primitive into preferred type  // ecma request
+console.log(true);  // true
+
+//console.log(+true); //1
+
+//console.log(true+); //error
+
+//bad approach
+console.log(+""); //0
+
+//no consistency // zero readbale behaviour
+//let num1, num2, num3
+
+//num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
+
+gameCounter++; //101
+//precedence operator prefix (pehkly increment)krty h  to kia hota h pr post fix (value increment bad mai )krty h to kia hota h ++gamecounter  or game counter ++]
+console.log(gameCounter);
+
+
+
+
+
+
+
+
+
+
+
